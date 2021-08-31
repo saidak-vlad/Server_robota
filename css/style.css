@@ -1,0 +1,21 @@
+
+.logo a{
+    color:black;
+}
+.navbar-nav li a{
+    color:black;
+    font-size:20px;
+}
+
+.navbar-nav li a::after{
+    content:'';
+    display:block;
+    width:100%;
+    background: red;
+    height:1px;
+    transform: scale(0);
+    transition:all .3s;
+}
+.navbar-nav li a:hover::after{
+    transform: scale(1);
+}
