@@ -1,4 +1,6 @@
 
+
+/*======================header================================*/
 .logo a{
     color:black;
 }
@@ -20,7 +22,27 @@
     transform: scale(1);
 }
 
+
+/*======================header================================*/
+.btn-pink{
+    background-color: #f42267;
+}
 .padding{
     padding-top:15px;
     padding-bottom: 15px;
+}
+.padding .border{
+   background-color: aqua;
+}
+/*======================header================================*/
+.section-info{
+    background-color: #d7dee2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-info .container{
+    background:url(../img/Без-имени-2.png)no-repeat  bottom right /*fixed*/;
+    margin-bottom:auto;
+    position:relative;
+
 }
