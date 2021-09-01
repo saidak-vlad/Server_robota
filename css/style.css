@@ -19,3 +19,8 @@
 .navbar-nav li a:hover::after{
     transform: scale(1);
 }
+
+.padding{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
