@@ -1,26 +1,91 @@
 
+
+/*======================header================================*/
 .logo a{
     color:black;
 }
-.navbar-nav li a{
-    color:black;
-    font-size:20px;
+.navbar-nav li a {
+    color: black;
+    font-size: 20px;
 }
 
-.navbar-nav li a::after{
-    content:'';
-    display:block;
-    width:100%;
-    background: red;
-    height:1px;
-    transform: scale(0);
-    transition:all .3s;
+.btn-header {
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
 }
-.navbar-nav li a:hover::after{
+
+.navbar-nav li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: blue;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.navbar-nav li a:hover::after {
     transform: scale(1);
 }
 
-.padding{
-    padding-top:15px;
+.btn-country {
+    width: 170px;
+}
+
+/*======================================================*/
+.btn-pink {
+    background-color: #f42267;
+}
+
+.padding {
+    padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.padding .border {
+    background-color: aqua;
+}
+
+/*======================================================*/
+.section-info{
+    background-color: #d7dee2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-info .container {
+    background: url(../img/Без-имени-2.png) no-repeat bottom right /*fixed*/;
+    margin-bottom: auto;
+    position: relative;
+
+}
+
+/*======================================================*/
+.config a {
+    color: black;
+}
+
+/*======================footer================================*/
+.footer {
+    padding-top: 50px;
+    background: black;
+    color: white;
+}
+
+.footer a {
+    color: gray;
+}
+
+.footer .down-footer {
+    color: blue;
+}
+
+footer h2 {
+    color: blue;
+}
+
+.footer img {
+    width: 150px;
+
 }
